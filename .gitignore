@@ -1,0 +1,4 @@
+.DS_Store
+feather-state-react-*.tgz
+node_modules/
+dist/

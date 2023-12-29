@@ -1,11 +1,26 @@
 {
   "name": "feather-state-react",
-  "version": "0.1.0",
-  "description": "A feather light state framework",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "A feather light state framework for React",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup src/index.ts --dts --sourcemap --format cjs,esm"
   },
   "author": "ingermarien@gmail.com",
-  "license": "UNLICENSED"
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "18.x"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "tsup": "^8.0.1"
+  },
+  "dependencies": {
+    "feather-state": "^1.0.1"
+  }
 }
