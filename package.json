@@ -1,6 +1,6 @@
 {
   "name": "feather-state-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A feather light state framework for React",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -21,6 +21,6 @@
     "tsup": "^8.0.1"
   },
   "dependencies": {
-    "feather-state": "^1.0.1"
+    "feather-state": "^1.1.1"
   }
 }

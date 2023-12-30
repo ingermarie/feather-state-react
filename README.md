@@ -1,7 +1,7 @@
 # Feather State React
 ![gzip](https://img.shields.io/badge/gzip-212_bytes-green)
 ![license](https://img.shields.io/badge/license-ISC-blue)
-![version](https://img.shields.io/badge/npm-v1.0.2-blue)
+![version](https://img.shields.io/badge/npm-v1.0.3-blue)
 
 ✨ A feather light state framework for React ✨ 212 bytes minified and gzipped - extends feather-state
 
